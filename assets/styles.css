@@ -1,0 +1,74 @@
+
+
+
+body {
+    margin: auto;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(./images/hero.png);
+    background-size: cover;
+}
+
+.top-nav{
+    width: 100%;
+    background-color: rgb(28,29,29);
+    color: rgb(173, 172, 173);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.top-nav h3 {
+    margin-left: 2.5rem;
+    font-size: .75rem;
+}
+
+.element:last-child {
+    margin-right: 6rem;
+}
+
+
+
+.navbar-brand, .nav-link, .shop-plans{
+    color: rgb(234, 244, 245);
+}
+
+#navbar {
+    border-bottom: solid 1px #6c999c;
+    justify-content: left;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 2rem;
+}
+
+
+.navbar-nav .shop-plans {
+    border-radius: 25px;
+    border: 2px solid rgb(109,175,172);
+    justify-content: right;
+    text-align: center;
+}
+
+
+
+.btn-secondary {
+    background-color: #FEFEFF;
+    color: black;
+    border: none;
+}
+
+.card   {
+    box-shadow: 4px 0 8px grey;
+    position: static;
+}
