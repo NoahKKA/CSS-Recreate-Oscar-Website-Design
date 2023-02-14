@@ -90,16 +90,228 @@ header ul {
 .plan-form {
     width: 50rem;
     box-shadow: 5px 5px 5px #DADEE2;
-    position: absolute;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     text-align: center;
-    top: 25rem;
+    top: 35vh;
 }
 
 
 /* BODY CONTAINER */
 
+.body-container {
+    position: relative;
+    top: 30vh;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+}
 
+.body-top {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.border-red {
+    border-top: solid 2px #FA919C;
+    width: 3rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.main-title {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.main-description {
+    font-family: Calibri;
+    font-size: 1.375rem;
+    margin-bottom: 2rem;
+}
+
+.descriptions {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.sub-image1,
+.sub-image2,
+.sub-image3,
+.sub-image4 {
+    width: 450px;
+    height: 300px;
+}
+
+.sub-1,
+.sub-2,
+.sub-3,
+.sub-4 {
+    text-align: left;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    flex-basis: 40%;
+    height: 100%;
+}
+
+.sub-1,
+.sub-3 {
+    margin-right: 0;
+}
+
+.sub-2,
+.sub-4 {
+    margin-left: 0;
+}
+
+.sub-2,
+.sub-3,
+.sub-4 {
+    margin-bottom: 8rem;
+}
+
+.sub-link {
+    text-decoration: none;
+}
+
+.sub-description,
+.sub-link {
+    font-size: 1rem;
+}
+
+.sub-title {
+    margin-bottom: 2rem;
+}
+
+/* CONDITONS */
+
+
+.condition-container {
+    position: relative;
+    top: 35vh;
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    margin-bottom: 4rem;
+}
+
+.conditions {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.conditions > p {
+    font-size: .825rem;
+}
+
+/* JARGON */
+
+.jargon-main-container {
+    width: 100%;
+    height: 115vh;
+    background-color: #FBF5EE;
+    position: relative;
+    top: 30vh;
+    display: flex;
+}
+
+
+
+.border-green {
+    border: solid 1px #62A5A2;
+    width: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.jargon-title {
+    font-family: sans;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.jargon-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-article-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    align-items:flex-start;
+}
+
+.main-article {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    width: 50%;
+    margin: 0;
+}
+
+.main-article > h2 {
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.main-article-img {
+    width: 530px;
+    height: 313px;
+}
+
+.three-articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background: none;
+    border: none;
+}
+
+.card-text {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* MORE CONDITONS */
+
+.more-conditions {
+    position: relative;
+    top: 50vh;
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    margin-bottom: 4rem;
+}
+
+.conditions-item, .conditions-also {
+    margin-bottom: .25rem;
+}
+
+.conditions-item {
+    margin-left: .5rem;
+}
+
+/* Newsletter */
+
+.newsletter {
+    position:relative;
+    top: 47vh;
+    width: 100%;
+}
